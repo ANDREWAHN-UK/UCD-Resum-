@@ -40,9 +40,28 @@ header{
     background-color: rgb(110, 148, 110);
 }
 
-bg-color-personal-info{
+.bg-color-personal-info{
     background-color: f4f4f4;
 }
+
+.pb-color-one{
+    background-color: salmon;
+}
+
+.pb-color-two{
+    background-color: rgb(34, 209, 240);
+}
+
+.pb-color-three{
+    background-color: rgb(221, 202, 29);
+}
+
+.pb-color-four{
+    background-color: rgb(180, 22, 228);
+}
+
+
+/*-------------------------------------colours---*/
 
 .logo{
     background: url("../images/rosie.jpg");
@@ -146,7 +165,7 @@ h1,h2,h3,h4 {
 
 .section-column{
     display: table-cell;
-    padding: 0 30px 30px;
+    padding: 0 30px 0px 0px;
     float: none;
 }
 
@@ -253,3 +272,23 @@ footer {
 #footer-details{
     padding: 20px;
 }
+
+/*-------------------------------------Skills---*/
+
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+    width: 100%;
+    line-height: 1.5;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #f0ebeb;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
